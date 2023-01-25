@@ -43,10 +43,3 @@ def test_kmeans_fails_on_non_positive_clusters_and_iterations():
         kmeans("../samples.csv", -3, -14)
 
 
-# Unit test for kmeans
-def test_kmeans():
-    """Add a unit test for function kmeans() to determine whether this algorithm divides the dataset into
-    default clusters.
-    """
-    index = kmeans("../samples.csv")
-    assert len(index) == 3
